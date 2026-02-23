@@ -1,0 +1,37 @@
+/* 
+violet #6D28D9
+doré #FFD700
+*/
+
+@import 'tailwindcss';
+
+
+
+.bg-violet-custom {
+  background-color: #7031d6;
+}
+.text-violet-custom {
+  color: #7031d6;
+}
+.border-violet-custom {
+  border-color: #7031d6;
+}
+.border-gold-custom {
+  border-color: #FFD700;
+}
+.text-gold-custom {
+  color: #FFD700;
+}
+.bg-gold-custom {
+  background-color: #FFD700;
+}
+.text-glow-gold {
+  text-shadow: 0 0 6px #f0d53c;
+}
+
+@font-face {
+  font-family: 'BebasNeue-Regular';
+  src: url('@/assets/fonts/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
